@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploDAL-BLL-UI-AdoNet", "ExemploDAL-BLL-UI-AdoNet\ExemploDAL-BLL-UI-AdoNet.csproj", "{0807027C-A7AF-42B8-9E58-34B28EA0CD43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E85EBB85-E25D-4E8F-89EC-7F6BC1B34F2A}"
+	ProjectSection(SolutionItems) = preProject
+		ScriptDB.sql = ScriptDB.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploDAL-BLL-UI-LINQ", "ExemploDAL-BLL-UI-LINQ\ExemploDAL-BLL-UI-LINQ.csproj", "{1B1614D7-8B3A-4E42-B659-2811C709FDA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploDAL-BLL-UI-EF", "ExemploDAL-BLL-UI-EF\ExemploDAL-BLL-UI-EF.csproj", "{5A7A6BE3-9D41-4B4C-A4B9-3F9EF60BF57F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0807027C-A7AF-42B8-9E58-34B28EA0CD43}.Debug|x86.ActiveCfg = Debug|x86
+		{0807027C-A7AF-42B8-9E58-34B28EA0CD43}.Debug|x86.Build.0 = Debug|x86
+		{0807027C-A7AF-42B8-9E58-34B28EA0CD43}.Release|x86.ActiveCfg = Release|x86
+		{0807027C-A7AF-42B8-9E58-34B28EA0CD43}.Release|x86.Build.0 = Release|x86
+		{1B1614D7-8B3A-4E42-B659-2811C709FDA0}.Debug|x86.ActiveCfg = Debug|x86
+		{1B1614D7-8B3A-4E42-B659-2811C709FDA0}.Debug|x86.Build.0 = Debug|x86
+		{1B1614D7-8B3A-4E42-B659-2811C709FDA0}.Release|x86.ActiveCfg = Release|x86
+		{1B1614D7-8B3A-4E42-B659-2811C709FDA0}.Release|x86.Build.0 = Release|x86
+		{5A7A6BE3-9D41-4B4C-A4B9-3F9EF60BF57F}.Debug|x86.ActiveCfg = Debug|x86
+		{5A7A6BE3-9D41-4B4C-A4B9-3F9EF60BF57F}.Debug|x86.Build.0 = Debug|x86
+		{5A7A6BE3-9D41-4B4C-A4B9-3F9EF60BF57F}.Release|x86.ActiveCfg = Release|x86
+		{5A7A6BE3-9D41-4B4C-A4B9-3F9EF60BF57F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

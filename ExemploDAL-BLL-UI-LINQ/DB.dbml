@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DB" EntityNamespace="Model" Class="DBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\sqlexpress;Initial Catalog=DB;Integrated Security=True" SettingsObjectName="Model.Properties.Settings" SettingsPropertyName="DBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PESSOA" Member="Pessoas">
+    <Type Name="Pessoa">
+      <Column Name="CODIGO_PESSOA" Member="Codigo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="NOME_PESSOA" Member="Nome" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+</Database>
